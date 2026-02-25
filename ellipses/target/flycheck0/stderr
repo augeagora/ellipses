@@ -1,58 +1,12 @@
-   0.013609700s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint: fingerprint error for ellipses v0.1.0 (C:\code\ellipses\ellipses)/Check { test: false }/TargetInner { name: "ellipses", doc: true, ..: with_path("C:\\code\\ellipses\\ellipses\\src\\main.rs", Edition2024) }
-   0.013651100s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\code\ellipses\ellipses\target\debug\.fingerprint\ellipses-7a165e280dd85953\bin-ellipses`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
-   0.020573900s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint: fingerprint error for ellipses v0.1.0 (C:\code\ellipses\ellipses)/Check { test: true }/TargetInner { name: "ellipses", doc: true, ..: with_path("C:\\code\\ellipses\\ellipses\\src\\main.rs", Edition2024) }
-   0.020592600s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\code\ellipses\ellipses\target\debug\.fingerprint\ellipses-7b0f9c7f3ab6a1c1\test-bin-ellipses`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
+   0.031656600s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint: stale: changed "C:\\code\\ellipses\\ellipses\\src\\main.rs"
+   0.031682800s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint:           (vs) "C:\\code\\ellipses\\ellipses\\target\\debug\\.fingerprint\\ellipses-7f5bb0b37e07e0ce\\dep-bin-ellipses"
+   0.031687700s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13416470255, nanos: 74044000 } < FileTime { seconds: 13416470296, nanos: 832385400 }
+   0.031806100s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint: fingerprint dirty for ellipses v0.1.0 (C:\code\ellipses\ellipses)/Check { test: false }/TargetInner { name: "ellipses", doc: true, ..: with_path("C:\\code\\ellipses\\ellipses\\src\\main.rs", Edition2024) }
+   0.031824200s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\code\\ellipses\\ellipses\\target\\debug\\.fingerprint\\ellipses-7f5bb0b37e07e0ce\\dep-bin-ellipses", reference_mtime: FileTime { seconds: 13416470255, nanos: 74044000 }, stale: "C:\\code\\ellipses\\ellipses\\src\\main.rs", stale_mtime: FileTime { seconds: 13416470296, nanos: 832385400 } }))
+   0.037592400s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint: stale: changed "C:\\code\\ellipses\\ellipses\\src\\main.rs"
+   0.037603700s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint:           (vs) "C:\\code\\ellipses\\ellipses\\target\\debug\\.fingerprint\\ellipses-eef39d25e03de86a\\dep-test-bin-ellipses"
+   0.037608000s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13416470255, nanos: 74044000 } < FileTime { seconds: 13416470296, nanos: 832385400 }
+   0.037691300s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint: fingerprint dirty for ellipses v0.1.0 (C:\code\ellipses\ellipses)/Check { test: true }/TargetInner { name: "ellipses", doc: true, ..: with_path("C:\\code\\ellipses\\ellipses\\src\\main.rs", Edition2024) }
+   0.037702100s  INFO prepare_target{force=false package_id=ellipses v0.1.0 (C:\code\ellipses\ellipses) target="ellipses"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\code\\ellipses\\ellipses\\target\\debug\\.fingerprint\\ellipses-eef39d25e03de86a\\dep-test-bin-ellipses", reference_mtime: FileTime { seconds: 13416470255, nanos: 74044000 }, stale: "C:\\code\\ellipses\\ellipses\\src\\main.rs", stale_mtime: FileTime { seconds: 13416470296, nanos: 832385400 } }))
     Checking ellipses v0.1.0 (C:\code\ellipses\ellipses)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.10s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.24s
