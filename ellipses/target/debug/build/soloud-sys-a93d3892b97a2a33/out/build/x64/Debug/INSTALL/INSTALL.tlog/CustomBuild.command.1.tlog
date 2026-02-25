@@ -1,0 +1,10 @@
+^C:\CODE\ELLIPSES\ELLIPSES\TARGET\DEBUG\BUILD\SOLOUD-SYS-A93D3892B97A2A33\OUT\BUILD\CMAKEFILES\8664D4B55803E0DA68A88DCA7ADD8353\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
