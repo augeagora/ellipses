@@ -38,11 +38,15 @@ fn main() {
     std::thread::sleep(std::time::Duration::from_millis(500));
 
     // Message
+    let m = "
+        Alô!\n
+        This is a little project I'm toying around with to familiarize myself\n
+        with Rust and Helix. So far I've been quite fond of both. All the goofy\n
+        sounds and music are made by me! I hope to create much more interesting\n
+        and wackier stuff soon...";
+
     clearscreen::clear().expect("Failed to clear screen.");
-    println!("Alô!");
-    println!("This took me a tad bit of time to set up...");
-    println!("Helix is super sweet honestly.");
-    println!("They say you can rejoin online games BTW...");
+    println!("{}", m.bright_cyan());
 
     // Load and play song
     wav.load_mem(include_bytes!("../ellipses.wav")).unwrap();
