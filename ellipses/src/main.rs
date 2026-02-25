@@ -43,4 +43,7 @@ fn main() {
     println!("This took me a tad bit of time to set up...");
     println!("Helix is super sweet honestly.");
     println!("They say you can rejoin online games BTW...");
+
+    // Wait for input to close
+    std::thread::sleep(std::time::Duration::from_millis(5000));
 }

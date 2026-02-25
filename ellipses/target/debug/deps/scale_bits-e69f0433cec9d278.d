@@ -1,0 +1,10 @@
+C:\code\ellipses\ellipses\target\debug\deps\scale_bits-e69f0433cec9d278.d: C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\lib.rs C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\bits\mod.rs C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\bits\bits.rs C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\scale\mod.rs C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\scale\decode_iter.rs C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\scale\encode_iter.rs
+
+C:\code\ellipses\ellipses\target\debug\deps\libscale_bits-e69f0433cec9d278.rmeta: C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\lib.rs C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\bits\mod.rs C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\bits\bits.rs C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\scale\mod.rs C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\scale\decode_iter.rs C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\scale\encode_iter.rs
+
+C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\lib.rs:
+C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\bits\mod.rs:
+C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\bits\bits.rs:
+C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\scale\mod.rs:
+C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\scale\decode_iter.rs:
+C:\Users\micha\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\scale-bits-0.7.0\src\scale\encode_iter.rs:
