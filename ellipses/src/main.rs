@@ -18,7 +18,7 @@ fn main() {
     }
 
     // Load next sound
-    wav.load_mem(include_bytes!("../ellipses.wav")).unwrap();
+    wav.load_mem(include_bytes!("../dot.wav")).unwrap();
 
     // Clear screen
     clearscreen::clear().expect("Failed to clear screen.");
@@ -43,6 +43,13 @@ fn main() {
     println!("This took me a tad bit of time to set up...");
     println!("Helix is super sweet honestly.");
     println!("They say you can rejoin online games BTW...");
+
+    // Load and play song
+    wav.load_mem(include_bytes!("../ellipses.wav")).unwrap();
+    sl.play(&wav);
+    while sl.voice_count() > 0 {
+        std::thread::sleep(std::time::Duration::from_millis(100));
+    }
 
     // Wait for input to close
     std::thread::sleep(std::time::Duration::from_millis(5000));
