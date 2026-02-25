@@ -1,4 +1,0 @@
-C:/code/ellipses/ellipses/target/debug/build/soloud-sys-a93d3892b97a2a33/out/build/CMakeFiles/soloud.dir
-C:/code/ellipses/ellipses/target/debug/build/soloud-sys-a93d3892b97a2a33/out/build/CMakeFiles/INSTALL.dir
-C:/code/ellipses/ellipses/target/debug/build/soloud-sys-a93d3892b97a2a33/out/build/CMakeFiles/ALL_BUILD.dir
-C:/code/ellipses/ellipses/target/debug/build/soloud-sys-a93d3892b97a2a33/out/build/CMakeFiles/ZERO_CHECK.dir
